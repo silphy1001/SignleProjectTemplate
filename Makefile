@@ -32,7 +32,7 @@ $(OBJS): $(SRCS)
 	$(CC) $(CFLAGS) $(INCLUDES) -c -o $@ $(@:.o=.c)
 
 clean:
-	$(RM) $(BIN_DIR)/$(TARGET) $(OBJS)
+	$(RM) $(TARGET) $(BIN_DIR)/$(TARGET) $(OBJS)
 
 
 #################################
